@@ -1,0 +1,36 @@
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1em;
+}
+
+span.badge {
+    padding: 1em;
+    background: #06415d;
+    color: #ffffff;
+}
+
+span.name {
+    padding: 1em;
+    background: #e5e5e5;
+}
+
+.selected, span.name:hover {
+    padding: 1em;
+    background: #000000;
+    color: #ffffff;
+}
+
+
+li button {
+    padding: 1em;
+    border: none;
+    width:max-content;
+    height: max-content;
+    background: #4daedb;
+}
+
+ul {
+    list-style: none;
+}
